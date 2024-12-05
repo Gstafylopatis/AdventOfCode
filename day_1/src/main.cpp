@@ -4,7 +4,7 @@
 #include <bits/stdc++.h>
 
 int part_1() {
-    std::ifstream input(R"(..\..\day_1\input.txt)");
+    std::ifstream input("../../day_1/input.txt");
     if (!input.is_open()) {
         std::cerr << "Error opening file" << std::endl;
         return 1;
@@ -41,7 +41,7 @@ int part_1() {
 }
 
 int part_2() {
-    std::ifstream input(R"(..\..\day_1\input.txt)");
+    std::ifstream input("../day_1/input.txt");
     if (!input.is_open()) {
         std::cerr << "Error opening file" << std::endl;
         return 1;
